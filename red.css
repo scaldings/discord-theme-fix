@@ -1,0 +1,73 @@
+/**
+ * @name midnight
+ * @description A darkened discord theme.
+ * @author refact0r
+ * @version 1.5.0
+ * @source https://github.com/refact0r/midnight-discord
+ * @authorId 508863359777505290
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+/* change colors and variables here */
+:root {
+	/* amount of spacing and padding */
+	--spacing: 12px;
+	/* radius of round corners */
+	--roundness: 16px;
+
+	/* color of links */
+	--accent-1: hsl(0, 70%, 60%);
+	/* color of unread dividers and some indicators */
+	--accent-2: hsl(0, 70%, 50%);
+	/* color of accented buttons */
+	--accent-3: hsl(0, 70%, 40%);
+	/* color of accented buttons when hovered */
+	--accent-4: hsl(0, 70%, 30%);
+	/* color of accented buttons when clicked */
+	--accent-5: hsl(0, 71%, 20%);
+
+	/* color of mentions and messages that mention you */
+	--mention: hsla(0, 60%, 50%, 0.1);
+	/* color of mentions and messages that mention you when hovered */
+	--mention-hover: hsla(0, 60%, 50%, 0.05);
+
+	/* color of bright text on colored buttons */
+	--text-1: hsl(0, 41%, 90%);
+	/* color of headings and important text */
+	--text-2: hsl(0, 29%, 70%);
+	/* color of normal text */
+	--text-3: hsl(0, 15%, 60%);
+	/* color of icon buttons and channels */
+	--text-4: hsl(0, 15%, 40%);
+	/* color of muted channels/chats and timestamps */
+	--text-5: hsl(0, 15%, 24%);
+
+	/* color of dark buttons when clicked */
+	--bg-1: hsl(0, 16%, 20%);
+	/* color of dark buttons */
+	--bg-2: hsl(0, 15%, 16%);
+	/* color of spacing around panels and secondary elements */
+	--bg-3: hsl(0, 15%, 13%);
+	/* main background color */
+	--bg-4: hsl(0, 14%, 10%);
+
+	/* color of channels and icon buttons when hovered */
+	--hover: hsla(0, 20%, 40%, 0.1);
+	/* color of channels and icon buttons when clicked or selected */
+	--active: hsla(0, 20%, 40%, 0.2);
+	/* color of messages when hovered */
+	--message-hover: hsla(0, 0%, 0%, 0.1);
+}
+
+/**
+ * @name Alexis Modern Discord Theme
+ * @author Alexis | WyvernZu#0001
+ * @authorLink https://twitter.com/WyvernZu
+ * @version 21.07.22
+ * @description A decluttered, simple, and modern theme for Discord.
+ * @source https://github.com/AlexisJonsson/AlexisJonsson.github.io/tree/master/BetterDiscordAddons/Themes
+ * @website https://alexisjonsson.com/
+*/
